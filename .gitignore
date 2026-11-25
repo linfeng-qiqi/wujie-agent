@@ -1,0 +1,44 @@
+# 运行时数据（含真实任务/消息/密钥，绝不入库）
+config.json
+agent.db
+agent.db-wal
+agent.db-shm
+*.db
+*.db-wal
+*.db-shm
+data/
+
+# 日志与附件
+logs/
+attachments/
+exports/
+*.log
+
+# NapCat 运行数据（含 QQ 登录态）
+napcat-data/
+*.token
+
+# 二维码 / 截图
+*.png
+*.jpg
+*.jpeg
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.workbuddy/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 备份 / 临时
+备份*/
+*.zip
+_bench_*.py
+*.bak*

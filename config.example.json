@@ -1,0 +1,26 @@
+{
+  "_说明": "复制本文件为 config.json 后填写。本地模式(api_key 留空)即可运行；只有切到在线模式才需要 DeepSeek 密钥。",
+  "api_key": "",
+  "base_url": "https://api.deepseek.com",
+  "model_fast": "deepseek-flash",
+  "model_pro": "deepseek-v4-pro",
+  "target_qq": "你的QQ号",
+  "bot_qq": "机器人QQ号",
+  "concurrency": 4,
+  "silent_text": 2,
+  "silent_attach": 8,
+  "hard_cap": 30,
+  "end_words": [
+    "好了",
+    "发完了",
+    "开始",
+    "执行",
+    "就这些",
+    "go"
+  ],
+  "doc_keep_default": "7d",
+  "context_window": 64000,
+  "provider": "local",
+  "model_local": "qwen3:1.7b",
+  "ollama_url": "http://127.0.0.1:11434"
+}
